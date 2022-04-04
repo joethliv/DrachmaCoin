@@ -12,3 +12,9 @@ VERSION oder DATUM:
 WIE IST DAS PROJEKT ZU STARTEN:
 AUTOR(EN):
 BENUTZERHINWEISE:
+
+
+Libraries needed:
+
+gson-2.6.2.jar
+commons-codec-1.15.jar
