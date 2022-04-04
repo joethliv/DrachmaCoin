@@ -14,8 +14,8 @@ class PATIENT2 implements DATENELEMENT
     private String name;
     public String hash;
     public String previousHash; 
-    private String data; //our data will be a simple message.
-    private long Datum; //as number of milliseconds since 1/1/1970.
+    private String data; 
+    private long Datum; 
     private int nonce;
     String p = "A";
     
