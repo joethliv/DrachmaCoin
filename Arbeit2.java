@@ -25,6 +25,10 @@ public class Arbeit2
     /**
      * Constructor for objects of class Arbeit2
      */
+    public LISTE GiveList()
+    {
+        return liste;
+    }
     public Arbeit2()
     {
         liste = new LISTE();

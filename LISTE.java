@@ -20,7 +20,10 @@ class LISTE
         anfang = null;        
     }
     
-    
+    public KNOTEN anfangGeben()
+    {
+        return anfang;
+    }
      /**
      * F&uuml;gt ein neues Datenelement am Anfang der Liste ein.
      * @param dneu neues Datenelement

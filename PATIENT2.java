@@ -53,6 +53,11 @@ class PATIENT2 implements DATENELEMENT
         return hash;
     }
     
+    public String PreviousHashAusgeben()
+    {
+        return previousHash;
+    }
+    
     //Increases nonce value until hash target is reached.
     public void mineBlock(int difficulty) {
         String target = StringUtil.getDificultyString(difficulty); //Create a string with difficulty * "0" 

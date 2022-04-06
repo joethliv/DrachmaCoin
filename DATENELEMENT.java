@@ -14,6 +14,7 @@ interface DATENELEMENT
     void InformationAusgeben();
     void mineBlock(int difficulty);
     String HashAusgeben();
+    String PreviousHashAusgeben();
     
      /**
      * Vergleich zweier Datenelemente bez&uuml;glich einer Ordnungsrelation
