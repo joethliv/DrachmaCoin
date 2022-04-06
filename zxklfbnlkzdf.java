@@ -15,23 +15,24 @@ public class zxklfbnlkzdf
         l = a.GiveList(); 
     }
     
+    private boolean isValidRecursive(KNOTEN k)
+    {
+       if (k.NachfolgerGeben() == null)
+       {
+           return true;
+        }else {
+            String hash = k.DatenelementGeben().HashAusgeben();
+            String hash2 = k.NachfolgerGeben().DatenelementGeben().PreviousHashAusgeben();
+            if (hash2 != hash)
+            {
+                return false;
+            }
+            return isValidRecursive(k.NachfolgerGeben());
+        }
+    }
     public boolean isValid()
     {
-        boolean result = true;
-        KNOTEN k = l.anfangGeben();
-        while (k.NachfolgerGeben() != null)
-        {
-            String hash;
-            hash = k.DatenelementGeben().HashAusgeben();
-            if (k.NachfolgerGeben() != null)
-            {
-                String hash2 = k.NachfolgerGeben().DatenelementGeben().PreviousHashAusgeben();
-                if (hash2 != hash){
-                    result = false;
-                }
-            }
-        }
-        return result;
+        return isValidRecursive(l.anfangGeben());
     }
 }
 
