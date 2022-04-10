@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=StringUtil
+comment1.params=input
+comment1.target=java.lang.String\ applySha256(java.lang.String)
+comment2.params=privateKey\ input
+comment2.target=byte[]\ applyECDSASig(java.security.PrivateKey,\ java.lang.String)
+comment3.params=publicKey\ data\ signature
+comment3.target=boolean\ verifyECDSASig(java.security.PublicKey,\ java.lang.String,\ byte[])
+comment4.params=o
+comment4.target=java.lang.String\ getJson(java.lang.Object)
+comment5.params=difficulty
+comment5.target=java.lang.String\ getDificultyString(int)
+comment6.params=key
+comment6.target=java.lang.String\ getStringFromKey(java.security.Key)
+numComments=7

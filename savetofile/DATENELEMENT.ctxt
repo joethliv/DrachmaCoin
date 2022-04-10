@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DATENELEMENT
+comment0.text=\r\n\ Beschreibung\ zum\ Interface\ DATENELEMENT\r\n\ \r\n\ @author\ Klaus\ Reinold\ \r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=void\ InformationAusgeben()
+comment1.text=\r\n\ Ausgabe\ von\ Information\ &uuml;ber\ ein\ Ausgabefenster\r\n
+comment2.params=difficulty
+comment2.target=void\ mineBlock(int)
+comment3.params=
+comment3.target=java.lang.String\ HashAusgeben()
+comment4.params=
+comment4.target=java.lang.String\ PreviousHashAusgeben()
+comment5.params=dvergleich
+comment5.target=boolean\ IstKleinerAls(DATENELEMENT)
+comment5.text=\r\n\ Vergleich\ zweier\ Datenelemente\ bez&uuml;glich\ einer\ Ordnungsrelation\r\n\ @param\ dvergleich\ Datenelement\ zum\ Vergleich\r\n
+comment6.params=s
+comment6.target=boolean\ SchluesselIstGleich(java.lang.String)
+comment6.text=\r\n\ Identifikation\ eines\ Datenelements\ aufgrund\ seines\ Schl&uuml;ssels\r\n\ @param\ s\ Schl&uuml;ssel\ vom\ Typ\ String\r\n
+numComments=7

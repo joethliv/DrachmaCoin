@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Arbeit2
+comment1.params=
+comment1.target=LISTE\ GiveList()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Arbeit2\r\n
+comment2.params=
+comment2.target=Arbeit2()
+comment3.params=limit
+comment3.target=void\ CreatAlot(double)
+comment4.params=Sender\ Receiver\ Amount
+comment4.target=java.lang.String\ MakeTransaction(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment5.params=
+comment5.target=void\ StoreFile()
+comment6.params=Namedata
+comment6.target=void\ Write(java.lang.String)
+comment7.params=fileName
+comment7.target=LISTE\ Read(java.lang.String)
+comment8.params=
+comment8.target=void\ Read()
+numComments=9

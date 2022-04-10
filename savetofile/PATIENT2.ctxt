@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=PATIENT2
+comment1.params=data\ previousHash
+comment1.target=PATIENT2(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Konstruktor\ des\ Patienten\r\n\ @param\ s\ Name\ des\ Patienten\r\n
+comment2.params=
+comment2.target=java.lang.String\ calculateHash()
+comment3.params=
+comment3.target=java.lang.String\ HashAusgeben()
+comment4.params=
+comment4.target=java.lang.String\ PreviousHashAusgeben()
+comment5.params=difficulty
+comment5.target=void\ mineBlock(int)
+comment6.params=
+comment6.target=void\ InformationAusgeben()
+comment6.text=\r\n\ Gibt\ Information\ &uuml;ber\ den\ Patienten\ aus.\r\n
+comment7.params=
+comment7.target=java.lang.String\ NameGeben()
+comment7.text=\r\n\ Gibt\ den\ Namen\ aus\r\n\ @return\ Name\ des\ Patienten\r\n
+comment8.params=dvergleich
+comment8.target=boolean\ IstKleinerAls(DATENELEMENT)
+comment8.text=\r\n\ Vergleich\ zweier\ Datenelemente\ bez&uuml;glich\ einer\ Ordnungsrelation\r\n\ @param\ dvergleich\ Datenelement\ zum\ Vergleich\r\n
+comment9.params=s
+comment9.target=boolean\ SchluesselIstGleich(java.lang.String)
+comment9.text=\r\n\ Identifikation\ eines\ Datenelements\ aufgrund\ seines\ Schl&uuml;ssels\ (Arzt)\r\n\ @param\ s\ Schl&uuml;ssel\ vom\ Typ\ String\r\n
+numComments=10
